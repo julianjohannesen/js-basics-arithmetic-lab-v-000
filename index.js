@@ -15,17 +15,17 @@ If the ++ operator comes before the variable (e.g., ++counter), the variable's v
 
 let counter = 0;
 //=> undefined
- 
+
 ++counter;
 //=> 1
- 
+
 counter;
 //=> 1
 In both cases, counter contains the value 1 after incrementing. The difference is in ***whether we want the operation to return the original or incremented value.***
 */
 
 const newID = oldID + 1000000000;
-const ageIsValid = isInteger(currentAge);
+const ageIsValid = Number.isInteger(currentAge);
 const randomNumber = Math.random() * 20 + 1;
 const randomInteger = Math.floor(randomNumber);
 const randomUserID = randomInteger + 1000000000;
