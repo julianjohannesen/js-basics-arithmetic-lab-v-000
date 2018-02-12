@@ -25,7 +25,7 @@ In both cases, counter contains the value 1 after incrementing. The difference i
 */
 
 const newID = oldID + 1000000000;
-const ageIsValid = isInteger(newID);
+const ageIsValid = isInteger(currentAge);
 const randomNumber = Math.random() * 20 + 1;
 const randomInteger = Math.floor(randomNumber);
 const randomUserID = randomInteger + 1000000000;
